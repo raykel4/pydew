@@ -89,7 +89,7 @@ public class Potion extends JPanel implements ActionListener, KeyListener{
     ArrayList<Item> inventory = new ArrayList<Item>(3); 
 
     //plants
-    ArrayList<Item> plants = new ArrayList<Item>(3);
+    ArrayList<Item> plants = new ArrayList<Item>();
     {
         plants.add(radish);
         plants.add(spinach);
